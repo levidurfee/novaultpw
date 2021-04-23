@@ -1,0 +1,14 @@
+{
+  "name": "novaultpw",
+  "version": "0.1.0",
+  "description": "vaultless password generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Levi Durfee <levi.durfee@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "seedrandom": "^3.0.5"
+  }
+}
