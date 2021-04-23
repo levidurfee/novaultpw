@@ -2,13 +2,16 @@
   "name": "novaultpw",
   "version": "0.1.0",
   "description": "vaultless password generator",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx rollup src/index.js --file dist/index.js --format umd --name 'novault'"
   },
   "author": "Levi Durfee <levi.durfee@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "seedrandom": "^3.0.5"
+  },
+  "devDependencies": {
+    "rollup": "^2.45.2"
   }
 }

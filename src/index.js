@@ -1,6 +1,6 @@
 const seedrandom = require('seedrandom');
 
-exports.generate = function(len, chars, pw, resource) {
+export default function generate(len, chars, pw, resource) {
     let rng = seedrandom(pw+resource);
 
     let index = 0;
