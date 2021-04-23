@@ -1,6 +1,6 @@
 {
   "name": "novaultpw",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "vaultless password generator",
   "main": "dist/index.js",
   "scripts": {
